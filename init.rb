@@ -40,7 +40,7 @@ Integrity.configure do |c|
   c.base_url                    = "http://ci.example.org"
   # Heroku - Comment out c.log
   # c.log                         = "integrity.log"
-  c.github_token                = "SECRET"
+  c.github_token                = "746a855be8eea3ec8713deb8b4b34dd33c3d9bb2"
   c.build_all                   = true
   c.trim_branches               = false
   c.builder                     = :threaded, 5
