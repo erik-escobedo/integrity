@@ -1,8 +1,8 @@
 source "http://rubygems.org"
 
 gem "data_mapper",       "~> 1.2.0"
-gem "dm-sqlite-adapter"
-gem "do_sqlite3"
+gem 'dm-postgres-adapter'
+gem "pg"
 
 gem "haml",                  "~> 3.1.6"
 gem "sass",                  "~> 3.1.18"
@@ -58,7 +58,6 @@ gem "bcat",                  "0.5.2"
 group :test do
   gem 'aws-ses', '0.4.3', :require => 'aws/ses'
   gem "extlib",          "0.9.15"
-  gem "sqlite3"
   gem "delayed_job"
   gem "delayed_job_active_record"
   gem "activerecord",    "3.0.3"
