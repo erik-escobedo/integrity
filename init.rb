@@ -50,4 +50,8 @@ Integrity.configure do |c|
   # c.checkout_proc             = Proc.new do |runner, repo_uri, branch, sha1, target_directory|
   #   runner.run! "git scclone #{repo_uri} #{target_directory} #{sha1}"
   # end
+  #
+  # Http Authentication - CHANGE THIS WHEN PROJECT IS DELIVERED
+  c.username = 'auxo'
+  c.password = '4uxop4ss'
 end
