@@ -1,8 +1,8 @@
 source "http://rubygems.org"
 
 gem "data_mapper",       "~> 1.2.0"
-gem 'dm-postgres-adapter'
-gem "pg"
+gem 'dm-mysql-adapter'
+gem 'mysql2'
 
 gem "haml",                  "~> 3.1.6"
 gem "sass",                  "~> 3.1.18"

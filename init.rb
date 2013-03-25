@@ -33,14 +33,14 @@ Integrity.configure do |c|
   # PostgreSQL via a more full specification:
   # c.database                  = "postgres://user:pass@host:port/database"
   # Heroku
-  c.database                  = ENV['DATABASE_URL']
+  c.database                  = 'mysql://auxo:4ux0r00t@auxo.cdnrxzg588xl.us-west-2.rds.amazonaws.com/ci_server'
   c.directory                   = "builds"
   # Heroku
   # c.directory                 = File.dirname(__FILE__) + '/tmp/builds'
   c.base_url                    = "http://ci.example.org"
   # Heroku - Comment out c.log
   # c.log                         = "integrity.log"
-  c.github_token                = "746a855be8eea3ec8713deb8b4b34dd33c3d9bb2"
+  c.github_token                = "auxo"
   c.build_all                   = true
   c.trim_branches               = false
   c.builder                     = :threaded, 5

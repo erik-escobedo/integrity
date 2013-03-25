@@ -65,9 +65,9 @@ GEM
       dm-core (~> 1.2.0)
     dm-migrations (1.2.0)
       dm-core (~> 1.2.0)
-    dm-postgres-adapter (1.2.0)
+    dm-mysql-adapter (1.2.0)
       dm-do-adapter (~> 1.2.0)
-      do_postgres (~> 0.10.6)
+      do_mysql (~> 0.10.6)
     dm-serializer (1.2.2)
       dm-core (~> 1.2.0)
       fastercsv (~> 1.5)
@@ -92,7 +92,7 @@ GEM
       uuidtools (~> 2.1)
     dm-validations (1.2.0)
       dm-core (~> 1.2.0)
-    do_postgres (0.10.12)
+    do_mysql (0.10.12)
       data_objects (= 0.10.12)
     extlib (0.9.15)
     fastercsv (1.5.5)
@@ -109,10 +109,10 @@ GEM
     mocha (0.9.10)
       rake
     multi_json (1.7.1)
+    mysql2 (0.3.11)
     nap (0.4)
     nokogiri (1.4.4)
     numerizer (0.1.1)
-    pg (0.14.1)
     polyglot (0.3.3)
     pony (1.1)
       mail (> 2.0)
@@ -163,16 +163,16 @@ DEPENDENCIES
   data_mapper (~> 1.2.0)
   delayed_job
   delayed_job_active_record
-  dm-postgres-adapter
+  dm-mysql-adapter
   dm-sweatshop
   extlib (= 0.9.15)
   haml (~> 3.1.6)
   hpricot (= 0.8.3)
   i18n (= 0.5.0)
   mocha (= 0.9.10)
+  mysql2
   nap (= 0.4)
   nokogiri (= 1.4.4)
-  pg
   pony (= 1.1)
   rack-test (= 0.5.7)
   randexp (~> 0.1.6)
